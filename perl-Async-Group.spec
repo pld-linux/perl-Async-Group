@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Async
-%define	pnam	Group
+%define		pdir	Async
+%define		pnam	Group
 Summary:	Async::Group - Perl class to deal with simultaneous asynchronous calls
 Summary(pl):	Async::Group - klasa Perla do obs³ugi jednoczesnych wywo³añ asynchronicznych
 Name:		perl-Async-Group
@@ -22,7 +22,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Async::Group is a Perl class which enables you to call several
-asynchronous routines.  Each routine may have their own callback. When
+asynchronous routines. Each routine may have their own callback. When
 all the routine are over (i.e. all their callback were called),
 Async::Group will call the global callback given by the user.
 
