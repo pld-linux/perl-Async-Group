@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Async
 %define		pnam	Group
-Summary:	Async-Group perl module
-Summary(pl):	Modu³ perla Async-Group
+Summary:	Async::Group perl module
+Summary(pl):	Modu³ perla Async::Group
 Name:		perl-Async-Group
 Version:	0.3
 Release:	7
@@ -15,11 +15,11 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Async-Group is a perl class to deal with simultaneous asynchronous
+Async::Group is a perl class to deal with simultaneous asynchronous
 calls.
 
 %description -l pl
-Modu³ perla Async-Group.
+Modu³ perla Async::Group.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
