@@ -9,7 +9,7 @@ Summary:	Async::Group - Perl class to deal with simultaneous asynchronous calls
 Summary(pl):	Async::Group - klasa Perla do obs³ugi jednoczesnych wywo³añ asynchronicznych
 Name:		perl-Async-Group
 Version:	0.3
-Release:	8
+Release:	9
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
