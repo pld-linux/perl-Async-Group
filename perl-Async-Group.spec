@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define		pdir	Async
-%define		pnam	Group
+%define	pdir	Async
+%define	pnam	Group
 Summary:	Async::Group - Perl class to deal with simultaneous asynchronous calls
 Summary(pl):	Async::Group - klasa Perla do obs³ugi jednoczesnych wywo³añ asynchronicznych
 Name:		perl-Async-Group
