@@ -4,10 +4,10 @@ Summary(pl):	Modu³ perla Async-Group
 Name:		perl-Async-Group
 Version:	0.3
 Release:	3
-Copyright:	GPL
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Async/Async-Group-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Async/Async-Group-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 %requires_eq	perl
@@ -15,7 +15,8 @@ Requires:	%{perl_sitearch}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Async-Group is a perl class to deal with simultaneous asynchronous calls.
+Async-Group is a perl class to deal with simultaneous asynchronous
+calls.
 
 %description -l pl
 Modu³ perla Async-Group.
