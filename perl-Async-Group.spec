@@ -6,7 +6,7 @@
 %define		pdir	Async
 %define		pnam	Group
 Summary:	Async::Group - Perl class to deal with simultaneous asynchronous calls
-Summary(pl):	Async::Group - klasa Perla do obs³ugi jednoczesnych wywo³añ asynchronicznych
+Summary(pl.UTF-8):   Async::Group - klasa Perla do obsÅ‚ugi jednoczesnych wywoÅ‚aÅ„ asynchronicznych
 Name:		perl-Async-Group
 Version:	0.3
 Release:	9
@@ -26,12 +26,12 @@ asynchronous routines. Each routine may have their own callback. When
 all the routine are over (i.e. all their callback were called),
 Async::Group will call the global callback given by the user.
 
-%description -l pl
-Async::Group to klasa Perla umo¿liwiaj±ca wywo³ywanie kilku
-asynchronicznych podprogramów. Ka¿dy z nich mo¿e mieæ swoje w³asne
-po³±czenie zwrotne. Gdy wszystkie te podprogramy siê zakoñcz± (tzn.
-zostan± wywo³ane ich po³±czenia zwrotne), Async::Group wywo³a globalne
-po³±czenie zwrotne podane przez u¿ytkownika.
+%description -l pl.UTF-8
+Async::Group to klasa Perla umoÅ¼liwiajÄ…ca wywoÅ‚ywanie kilku
+asynchronicznych podprogramÃ³w. KaÅ¼dy z nich moÅ¼e mieÄ‡ swoje wÅ‚asne
+poÅ‚Ä…czenie zwrotne. Gdy wszystkie te podprogramy siÄ™ zakoÅ„czÄ… (tzn.
+zostanÄ… wywoÅ‚ane ich poÅ‚Ä…czenia zwrotne), Async::Group wywoÅ‚a globalne
+poÅ‚Ä…czenie zwrotne podane przez uÅ¼ytkownika.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
