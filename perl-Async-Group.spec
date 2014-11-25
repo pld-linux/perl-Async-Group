@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Async
 %define		pnam	Group
+%include	/usr/lib/rpm/macros.perl
 Summary:	Async::Group - Perl class to deal with simultaneous asynchronous calls
 Summary(pl.UTF-8):	Async::Group - klasa Perla do obsługi jednoczesnych wywołań asynchronicznych
 Name:		perl-Async-Group
@@ -15,8 +15,9 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	9a18d7ef93a00825ad8d7df2ef65c7cc
-BuildRequires:	rpm-perlprov >= 4.1-13
+URL:		http://search.cpan.org/dist/Async-Group/
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
