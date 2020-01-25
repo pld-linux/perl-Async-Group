@@ -4,7 +4,6 @@
 
 %define		pdir	Async
 %define		pnam	Group
-%include	/usr/lib/rpm/macros.perl
 Summary:	Async::Group - Perl class to deal with simultaneous asynchronous calls
 Summary(pl.UTF-8):	Async::Group - klasa Perla do obsługi jednoczesnych wywołań asynchronicznych
 Name:		perl-Async-Group
